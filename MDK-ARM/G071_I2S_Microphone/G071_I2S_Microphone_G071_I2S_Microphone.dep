@@ -1,0 +1,849 @@
+Dependencies for Project 'G071_I2S_Microphone', Target 'G071_I2S_Microphone': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32g071xx.s)(0x65840013)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32g071xx.lst --xref -o g071_i2s_microphone\startup_stm32g071xx.o --depend g071_i2s_microphone\startup_stm32g071xx.d)
+F (../Core/Src/main.c)(0x655C9514)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\main.o --omf_browse g071_i2s_microphone\main.crf --depend g071_i2s_microphone\main.d)
+I (../Core/Inc/main.h)(0x655CB58E)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+I (../Core/Inc/dma.h)(0x655BBC8B)
+I (../Core/Inc/i2s.h)(0x655BBC8B)
+I (../Core/Inc/usart.h)(0x655BBC8C)
+I (../Core/Inc/gpio.h)(0x655BBC8A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602569CE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x602569CC)
+F (../Core/Src/gpio.c)(0x655CB58D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\gpio.o --omf_browse g071_i2s_microphone\gpio.crf --depend g071_i2s_microphone\gpio.d)
+I (../Core/Inc/gpio.h)(0x655BBC8A)
+I (../Core/Inc/main.h)(0x655CB58E)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Core/Src/dma.c)(0x655BBC8B)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\dma.o --omf_browse g071_i2s_microphone\dma.crf --depend g071_i2s_microphone\dma.d)
+I (../Core/Inc/dma.h)(0x655BBC8B)
+I (../Core/Inc/main.h)(0x655CB58E)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Core/Src/i2s.c)(0x655C9492)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\i2s.o --omf_browse g071_i2s_microphone\i2s.crf --depend g071_i2s_microphone\i2s.d)
+I (../Core/Inc/i2s.h)(0x655BBC8B)
+I (../Core/Inc/main.h)(0x655CB58E)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Core/Src/usart.c)(0x655BBC8C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\usart.o --omf_browse g071_i2s_microphone\usart.crf --depend g071_i2s_microphone\usart.d)
+I (../Core/Inc/usart.h)(0x655BBC8C)
+I (../Core/Inc/main.h)(0x655CB58E)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Core/Src/stm32g0xx_it.c)(0x655BB9B8)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_it.o --omf_browse g071_i2s_microphone\stm32g0xx_it.crf --depend g071_i2s_microphone\stm32g0xx_it.d)
+I (../Core/Inc/main.h)(0x655CB58E)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_it.h)(0x655BB9B8)
+F (../Core/Src/stm32g0xx_hal_msp.c)(0x655BBC8C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_msp.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_msp.crf --depend g071_i2s_microphone\stm32g0xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x655CB58E)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2s.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_i2s.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_i2s.crf --depend g071_i2s_microphone\stm32g0xx_hal_i2s.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_rcc.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_rcc.crf --depend g071_i2s_microphone\stm32g0xx_hal_rcc.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_rcc_ex.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_rcc_ex.crf --depend g071_i2s_microphone\stm32g0xx_hal_rcc_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_ll_rcc.o --omf_browse g071_i2s_microphone\stm32g0xx_ll_rcc.crf --depend g071_i2s_microphone\stm32g0xx_ll_rcc.d)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_flash.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_flash.crf --depend g071_i2s_microphone\stm32g0xx_hal_flash.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_flash_ex.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_flash_ex.crf --depend g071_i2s_microphone\stm32g0xx_hal_flash_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_gpio.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_gpio.crf --depend g071_i2s_microphone\stm32g0xx_hal_gpio.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_dma.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_dma.crf --depend g071_i2s_microphone\stm32g0xx_hal_dma.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_dma_ex.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_dma_ex.crf --depend g071_i2s_microphone\stm32g0xx_hal_dma_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_ll_dma.o --omf_browse g071_i2s_microphone\stm32g0xx_ll_dma.crf --depend g071_i2s_microphone\stm32g0xx_ll_dma.d)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_pwr.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_pwr.crf --depend g071_i2s_microphone\stm32g0xx_hal_pwr.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_pwr_ex.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_pwr_ex.crf --depend g071_i2s_microphone\stm32g0xx_hal_pwr_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_cortex.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_cortex.crf --depend g071_i2s_microphone\stm32g0xx_hal_cortex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal.o --omf_browse g071_i2s_microphone\stm32g0xx_hal.crf --depend g071_i2s_microphone\stm32g0xx_hal.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_exti.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_exti.crf --depend g071_i2s_microphone\stm32g0xx_hal_exti.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_tim.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_tim.crf --depend g071_i2s_microphone\stm32g0xx_hal_tim.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_tim_ex.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_tim_ex.crf --depend g071_i2s_microphone\stm32g0xx_hal_tim_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_uart.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_uart.crf --depend g071_i2s_microphone\stm32g0xx_hal_uart.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c)(0x6583FA33)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\stm32g0xx_hal_uart_ex.o --omf_browse g071_i2s_microphone\stm32g0xx_hal_uart_ex.crf --depend g071_i2s_microphone\stm32g0xx_hal_uart_ex.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
+F (../Core/Src/system_stm32g0xx.c)(0x6408D10E)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_G071_I2S_Microphone-IC:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G071xx-o g071_i2s_microphone\system_stm32g0xx.o --omf_browse g071_i2s_microphone\system_stm32g0xx.crf --depend g071_i2s_microphone\system_stm32g0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g071xx.h)(0x6583FA30)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6583FA33)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6583FA33)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x6583FA30)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x6583FA33)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x655BB5E8)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6583FA33)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602569CE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_i2s.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart.h)(0x6583FA33)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_uart_ex.h)(0x6583FA33)
