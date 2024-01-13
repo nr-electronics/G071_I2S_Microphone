@@ -67,7 +67,7 @@ void SystemClock_Config(void);
 void processing_ready_buffer(sample_t* buff, size_t sz);
 void transmit_frame_to_uart(sample_t* buff, size_t sz);
 int8_t microphone_start_stop (bool);
-
+int8_t button;
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -115,16 +115,20 @@ int main(void)
   microphone_start_stop (true);
   while (1)
   {
-	 if(dma_i2s_recive == 1)
-	 {
-		 dma_i2s_recive = 0;
-		 processing_ready_buffer(&dma_mic_buffer[0], DMA_MIC_BUFFER_IN_SIZE/2);
-	 }
-	 else if (dma_i2s_recive == 2)
-	 {
-		 dma_i2s_recive = 0;
-		 processing_ready_buffer(&dma_mic_buffer[DMA_MIC_BUFFER_IN_SIZE/2], DMA_MIC_BUFFER_IN_SIZE/2);
+	button = HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
+	if (button == 0)
+	{
+		if(dma_i2s_recive == 1)
+		{
+			dma_i2s_recive = 0;
+			processing_ready_buffer(&dma_mic_buffer[0], DMA_MIC_BUFFER_IN_SIZE/2);
+		}
+		else if (dma_i2s_recive == 2)
+		{
+			dma_i2s_recive = 0;
+			processing_ready_buffer(&dma_mic_buffer[DMA_MIC_BUFFER_IN_SIZE/2], DMA_MIC_BUFFER_IN_SIZE/2);
 
+		}
 	 }
     /* USER CODE END WHILE */
 
